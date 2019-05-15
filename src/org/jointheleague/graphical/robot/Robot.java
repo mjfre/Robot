@@ -759,23 +759,23 @@ public class Robot implements RobotInterface {
 		int sleepLength = 50;
 
 		try {
-			img1 = ImageIO.read(new File("src/org/jointheleague/graphical/robot/explosion/frame1.png"));
-			img2 = ImageIO.read(new File("src/org/jointheleague/graphical/robot/explosion/frame2.png"));
-			img3 = ImageIO.read(new File("src/org/jointheleague/graphical/robot/explosion/frame3.png"));
-			img4 = ImageIO.read(new File("src/org/jointheleague/graphical/robot/explosion/frame4.png"));
-			img5 = ImageIO.read(new File("src/org/jointheleague/graphical/robot/explosion/frame5.png"));
-			img6 = ImageIO.read(new File("src/org/jointheleague/graphical/robot/explosion/frame6.png"));
-			img7 = ImageIO.read(new File("src/org/jointheleague/graphical/robot/explosion/frame7.png"));
-			img8 = ImageIO.read(new File("src/org/jointheleague/graphical/robot/explosion/frame8.png"));
-			img9 = ImageIO.read(new File("src/org/jointheleague/graphical/robot/explosion/frame9.png"));
-			img10 = ImageIO.read(new File("src/org/jointheleague/graphical/robot/explosion/frame10.png"));
-			img11 = ImageIO.read(new File("src/org/jointheleague/graphical/robot/explosion/frame11.png"));
-			img12 = ImageIO.read(new File("src/org/jointheleague/graphical/robot/explosion/frame12.png"));
-			img13 = ImageIO.read(new File("src/org/jointheleague/graphical/robot/explosion/frame13.png"));
-			img14 = ImageIO.read(new File("src/org/jointheleague/graphical/robot/explosion/frame14.png"));
-			img15 = ImageIO.read(new File("src/org/jointheleague/graphical/robot/explosion/frame15.png"));
-			img16 = ImageIO.read(new File("src/org/jointheleague/graphical/robot/explosion/frame16.png"));
-			img17 = ImageIO.read(new File("src/org/jointheleague/graphical/robot/explosion/frame17.png"));
+			img1 = ImageIO.read(this.getClass().getResourceAsStream("explosion/frame1.png"));
+			img2 = ImageIO.read(this.getClass().getResourceAsStream("explosion/frame2.png"));
+			img3 = ImageIO.read(this.getClass().getResourceAsStream("explosion/frame3.png"));
+			img4 = ImageIO.read(this.getClass().getResourceAsStream("explosion/frame4.png"));
+			img5 = ImageIO.read(this.getClass().getResourceAsStream("explosion/frame5.png"));
+			img6 = ImageIO.read(this.getClass().getResourceAsStream("explosion/frame6.png"));
+			img7 = ImageIO.read(this.getClass().getResourceAsStream("explosion/frame7.png"));
+			img8 = ImageIO.read(this.getClass().getResourceAsStream("explosion/frame8.png"));
+			img9 = ImageIO.read(this.getClass().getResourceAsStream("explosion/frame9.png"));
+			img10 = ImageIO.read(this.getClass().getResourceAsStream("explosion/frame10.png"));
+			img11 = ImageIO.read(this.getClass().getResourceAsStream("explosion/frame11.png"));
+			img12 = ImageIO.read(this.getClass().getResourceAsStream("explosion/frame12.png"));
+			img13 = ImageIO.read(this.getClass().getResourceAsStream("explosion/frame13.png"));
+			img14 = ImageIO.read(this.getClass().getResourceAsStream("explosion/frame14.png"));
+			img15 = ImageIO.read(this.getClass().getResourceAsStream("explosion/frame15.png"));
+			img16 = ImageIO.read(this.getClass().getResourceAsStream("explosion/frame16.png"));
+			img17 = ImageIO.read(this.getClass().getResourceAsStream("explosion/frame17.png"));
 
 
 			changeRobot(img1);
